@@ -1,0 +1,86 @@
+{
+  "crossing": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      2,
+      40
+    ],
+    "starts": {
+      "R1": [
+        5,
+        19
+      ],
+      "R2": [
+        8,
+        22
+      ]
+    },
+    "goals": {
+      "R1": [
+        14,
+        20
+      ],
+      "R2": [
+        14,
+        11
+      ]
+    }
+  },
+  "crossing2": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      2,
+      54
+    ],
+    "starts": {
+      "R1": [
+        5,
+        19
+      ],
+      "R2": [
+        10,
+        25
+      ]
+    },
+    "goals": {
+      "R1": [
+        14,
+        20
+      ],
+      "R2": [
+        10,
+        13
+      ]
+    }
+  },
+  "crossing3": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      2,
+      62
+    ],
+    "starts": {
+      "R1": [
+        5,
+        19
+      ],
+      "R2": [
+        13,
+        20
+      ]
+    },
+    "goals": {
+      "R1": [
+        14,
+        20
+      ],
+      "R2": [
+        1,
+        10
+      ]
+    }
+  }
+}

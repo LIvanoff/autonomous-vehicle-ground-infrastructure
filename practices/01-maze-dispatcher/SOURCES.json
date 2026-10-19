@@ -1,0 +1,33 @@
+{
+  "planner_repository": "https://github.com/atb033/multi_agent_path_planning",
+  "commit": "89f69e11944b172e11c3bcbbecc57344eaa4be9c",
+  "files": [
+    {
+      "path": "vendor/cbs/cbs.py",
+      "url": "https://raw.githubusercontent.com/atb033/multi_agent_path_planning/89f69e11944b172e11c3bcbbecc57344eaa4be9c/centralized/cbs/cbs.py",
+      "sha256": "681a17d5b5abdb66d0fe50885721a588bf4d85f4eebc0cc7dca2bd126746382d"
+    },
+    {
+      "path": "vendor/cbs/a_star.py",
+      "url": "https://raw.githubusercontent.com/atb033/multi_agent_path_planning/89f69e11944b172e11c3bcbbecc57344eaa4be9c/centralized/cbs/a_star.py",
+      "sha256": "a08224dcb661dcaef92f72e4c1e8ccf8072c48eecf57c2e469ee88375ba57044"
+    },
+    {
+      "path": "vendor/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/atb033/multi_agent_path_planning/89f69e11944b172e11c3bcbbecc57344eaa4be9c/LICENSE",
+      "sha256": "f18a5627a1d96713ea48b3484b5f25f91ddf35ee8a0d417a6ba233fcf98f7e05"
+    },
+    {
+      "path": "data/maze-32-32-2.map",
+      "url": "https://www.movingai.com/benchmarks/mapf/maze-32-32-2.map.zip",
+      "member": "maze-32-32-2.map",
+      "sha256": "5c549328775ce530072cb05eda8f9010235a7e29294806d6aebb0ad667479cd3"
+    },
+    {
+      "path": "data/maze-32-32-2-random-1.scen",
+      "url": "https://www.movingai.com/benchmarks/mapf/maze-32-32-2.map-scen-random.zip",
+      "member": "scen-random/maze-32-32-2-random-1.scen",
+      "sha256": "9dfb3f8fe775e6364165235fdc1105025103b75edcfe0a4887e0582ee0ea773c"
+    }
+  ]
+}

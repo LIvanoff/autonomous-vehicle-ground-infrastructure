@@ -1,0 +1,36 @@
+Moving AI MAPF — все карты исходного архива
+https://www.movingai.com/benchmarks/mapf/mapf-map.zip
+
+Berlin_1_256.map                          256 x 256 
+Boston_0_256.map                          256 x 256 
+Paris_1_256.map                           256 x 256 
+brc202d.map                               530 x 481 
+den312d.map                                65 x 81  
+den520d.map                               256 x 257 
+empty-16-16.map                            16 x 16  
+empty-32-32.map                            32 x 32  
+empty-48-48.map                            48 x 48  
+empty-8-8.map                               8 x 8   
+ht_chantry.map                            162 x 141 
+ht_mansion_n.map                          133 x 270 
+lak303d.map                               194 x 194 
+lt_gallowstemplar_n.map                   251 x 180 
+maze-128-128-1.map                        128 x 128 
+maze-128-128-10.map                       128 x 128 
+maze-128-128-2.map                        128 x 128 
+maze-32-32-2.map                           32 x 32  
+maze-32-32-4.map                           32 x 32  
+orz900d.map                              1491 x 656 
+ost003d.map                               194 x 194 
+random-32-32-10.map                        32 x 32  
+random-32-32-20.map                        32 x 32  
+random-64-64-10.map                        64 x 64  
+random-64-64-20.map                        64 x 64  
+room-32-32-4.map                           32 x 32  
+room-64-64-16.map                          64 x 64  
+room-64-64-8.map                           64 x 64  
+w_woundedcoast.map                        642 x 578 
+warehouse-10-20-10-2-1.map                161 x 63  
+warehouse-10-20-10-2-2.map                170 x 84  
+warehouse-20-40-10-2-1.map                321 x 123 
+warehouse-20-40-10-2-2.map                340 x 164 
