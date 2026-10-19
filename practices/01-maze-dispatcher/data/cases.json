@@ -82,5 +82,845 @@
         10
       ]
     }
+  },
+  "crossing4": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      164,
+      197
+    ],
+    "starts": {
+      "R1": [
+        17,
+        15
+      ],
+      "R2": [
+        18,
+        14
+      ]
+    },
+    "goals": {
+      "R1": [
+        26,
+        15
+      ],
+      "R2": [
+        9,
+        26
+      ]
+    }
+  },
+  "crossing5": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      25,
+      219
+    ],
+    "starts": {
+      "R1": [
+        17,
+        30
+      ],
+      "R2": [
+        14,
+        16
+      ]
+    },
+    "goals": {
+      "R1": [
+        15,
+        17
+      ],
+      "R2": [
+        25,
+        27
+      ]
+    }
+  },
+  "crossing6": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      79,
+      218
+    ],
+    "starts": {
+      "R1": [
+        15,
+        25
+      ],
+      "R2": [
+        13,
+        24
+      ]
+    },
+    "goals": {
+      "R1": [
+        19,
+        19
+      ],
+      "R2": [
+        26,
+        27
+      ]
+    }
+  },
+  "crossing7": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      79,
+      208
+    ],
+    "starts": {
+      "R1": [
+        15,
+        25
+      ],
+      "R2": [
+        14,
+        25
+      ]
+    },
+    "goals": {
+      "R1": [
+        19,
+        19
+      ],
+      "R2": [
+        23,
+        10
+      ]
+    }
+  },
+  "crossing8": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      156,
+      192
+    ],
+    "starts": {
+      "R1": [
+        2,
+        27
+      ],
+      "R2": [
+        11,
+        18
+      ]
+    },
+    "goals": {
+      "R1": [
+        13,
+        17
+      ],
+      "R2": [
+        10,
+        26
+      ]
+    }
+  },
+  "crossing9": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      198,
+      320
+    ],
+    "starts": {
+      "R1": [
+        13,
+        10
+      ],
+      "R2": [
+        15,
+        1
+      ]
+    },
+    "goals": {
+      "R1": [
+        23,
+        4
+      ],
+      "R2": [
+        13,
+        7
+      ]
+    }
+  },
+  "crossing10": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      218,
+      310
+    ],
+    "starts": {
+      "R1": [
+        13,
+        24
+      ],
+      "R2": [
+        7,
+        29
+      ]
+    },
+    "goals": {
+      "R1": [
+        26,
+        27
+      ],
+      "R2": [
+        16,
+        17
+      ]
+    }
+  },
+  "crossing11": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      25,
+      38
+    ],
+    "starts": {
+      "R1": [
+        17,
+        30
+      ],
+      "R2": [
+        8,
+        26
+      ]
+    },
+    "goals": {
+      "R1": [
+        15,
+        17
+      ],
+      "R2": [
+        27,
+        26
+      ]
+    }
+  },
+  "crossing12": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      226,
+      231
+    ],
+    "starts": {
+      "R1": [
+        6,
+        16
+      ],
+      "R2": [
+        8,
+        17
+      ]
+    },
+    "goals": {
+      "R1": [
+        4,
+        13
+      ],
+      "R2": [
+        2,
+        13
+      ]
+    }
+  },
+  "crossing13": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      187,
+      221
+    ],
+    "starts": {
+      "R1": [
+        17,
+        28
+      ],
+      "R2": [
+        16,
+        28
+      ]
+    },
+    "goals": {
+      "R1": [
+        8,
+        28
+      ],
+      "R2": [
+        26,
+        28
+      ]
+    }
+  },
+  "crossing14": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      177,
+      310
+    ],
+    "starts": {
+      "R1": [
+        26,
+        29
+      ],
+      "R2": [
+        7,
+        29
+      ]
+    },
+    "goals": {
+      "R1": [
+        13,
+        29
+      ],
+      "R2": [
+        16,
+        17
+      ]
+    }
+  },
+  "crossing15": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      5,
+      177
+    ],
+    "starts": {
+      "R1": [
+        19,
+        23
+      ],
+      "R2": [
+        26,
+        29
+      ]
+    },
+    "goals": {
+      "R1": [
+        14,
+        31
+      ],
+      "R2": [
+        13,
+        29
+      ]
+    }
+  },
+  "crossing16": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      253,
+      276
+    ],
+    "starts": {
+      "R1": [
+        11,
+        23
+      ],
+      "R2": [
+        13,
+        14
+      ]
+    },
+    "goals": {
+      "R1": [
+        7,
+        14
+      ],
+      "R2": [
+        17,
+        26
+      ]
+    }
+  },
+  "crossing17": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      143,
+      241
+    ],
+    "starts": {
+      "R1": [
+        31,
+        16
+      ],
+      "R2": [
+        16,
+        30
+      ]
+    },
+    "goals": {
+      "R1": [
+        22,
+        28
+      ],
+      "R2": [
+        28,
+        30
+      ]
+    }
+  },
+  "crossing18": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      293,
+      318
+    ],
+    "starts": {
+      "R1": [
+        8,
+        13
+      ],
+      "R2": [
+        7,
+        13
+      ]
+    },
+    "goals": {
+      "R1": [
+        2,
+        20
+      ],
+      "R2": [
+        2,
+        25
+      ]
+    }
+  },
+  "crossing19": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      51,
+      280
+    ],
+    "starts": {
+      "R1": [
+        22,
+        26
+      ],
+      "R2": [
+        29,
+        8
+      ]
+    },
+    "goals": {
+      "R1": [
+        19,
+        15
+      ],
+      "R2": [
+        17,
+        13
+      ]
+    }
+  },
+  "crossing20": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      219,
+      321
+    ],
+    "starts": {
+      "R1": [
+        14,
+        16
+      ],
+      "R2": [
+        16,
+        29
+      ]
+    },
+    "goals": {
+      "R1": [
+        25,
+        27
+      ],
+      "R2": [
+        17,
+        16
+      ]
+    }
+  },
+  "crossing21": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      91,
+      197
+    ],
+    "starts": {
+      "R1": [
+        8,
+        25
+      ],
+      "R2": [
+        18,
+        14
+      ]
+    },
+    "goals": {
+      "R1": [
+        20,
+        15
+      ],
+      "R2": [
+        9,
+        26
+      ]
+    }
+  },
+  "crossing22": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      51,
+      138
+    ],
+    "starts": {
+      "R1": [
+        22,
+        26
+      ],
+      "R2": [
+        20,
+        22
+      ]
+    },
+    "goals": {
+      "R1": [
+        19,
+        15
+      ],
+      "R2": [
+        13,
+        16
+      ]
+    }
+  },
+  "crossing23": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      224,
+      254
+    ],
+    "starts": {
+      "R1": [
+        9,
+        4
+      ],
+      "R2": [
+        12,
+        10
+      ]
+    },
+    "goals": {
+      "R1": [
+        16,
+        10
+      ],
+      "R2": [
+        12,
+        2
+      ]
+    }
+  },
+  "crossing24": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      5,
+      72
+    ],
+    "starts": {
+      "R1": [
+        19,
+        23
+      ],
+      "R2": [
+        18,
+        25
+      ]
+    },
+    "goals": {
+      "R1": [
+        14,
+        31
+      ],
+      "R2": [
+        29,
+        14
+      ]
+    }
+  },
+  "crossing25": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      123,
+      138
+    ],
+    "starts": {
+      "R1": [
+        5,
+        22
+      ],
+      "R2": [
+        20,
+        22
+      ]
+    },
+    "goals": {
+      "R1": [
+        17,
+        17
+      ],
+      "R2": [
+        13,
+        16
+      ]
+    }
+  },
+  "crossing26": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      38,
+      96
+    ],
+    "starts": {
+      "R1": [
+        8,
+        26
+      ],
+      "R2": [
+        22,
+        22
+      ]
+    },
+    "goals": {
+      "R1": [
+        27,
+        26
+      ],
+      "R2": [
+        24,
+        28
+      ]
+    }
+  },
+  "crossing27": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      4,
+      293
+    ],
+    "starts": {
+      "R1": [
+        11,
+        17
+      ],
+      "R2": [
+        8,
+        13
+      ]
+    },
+    "goals": {
+      "R1": [
+        3,
+        10
+      ],
+      "R2": [
+        2,
+        20
+      ]
+    }
+  },
+  "crossing28": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      192,
+      253
+    ],
+    "starts": {
+      "R1": [
+        11,
+        18
+      ],
+      "R2": [
+        11,
+        23
+      ]
+    },
+    "goals": {
+      "R1": [
+        10,
+        26
+      ],
+      "R2": [
+        7,
+        14
+      ]
+    }
+  },
+  "crossing29": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      125,
+      301
+    ],
+    "starts": {
+      "R1": [
+        10,
+        14
+      ],
+      "R2": [
+        7,
+        22
+      ]
+    },
+    "goals": {
+      "R1": [
+        6,
+        23
+      ],
+      "R2": [
+        2,
+        17
+      ]
+    }
+  },
+  "crossing30": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      183,
+      301
+    ],
+    "starts": {
+      "R1": [
+        5,
+        10
+      ],
+      "R2": [
+        7,
+        22
+      ]
+    },
+    "goals": {
+      "R1": [
+        9,
+        16
+      ],
+      "R2": [
+        2,
+        17
+      ]
+    }
+  },
+  "crossing31": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      151,
+      321
+    ],
+    "starts": {
+      "R1": [
+        18,
+        19
+      ],
+      "R2": [
+        16,
+        29
+      ]
+    },
+    "goals": {
+      "R1": [
+        14,
+        17
+      ],
+      "R2": [
+        17,
+        16
+      ]
+    }
+  },
+  "crossing32": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      210,
+      276
+    ],
+    "starts": {
+      "R1": [
+        11,
+        22
+      ],
+      "R2": [
+        13,
+        14
+      ]
+    },
+    "goals": {
+      "R1": [
+        7,
+        16
+      ],
+      "R2": [
+        17,
+        26
+      ]
+    }
+  },
+  "crossing33": {
+    "map": "maze-32-32-2.map",
+    "scenario": "maze-32-32-2-random-1.scen",
+    "scenario_rows": [
+      224,
+      227
+    ],
+    "starts": {
+      "R1": [
+        9,
+        4
+      ],
+      "R2": [
+        24,
+        2
+      ]
+    },
+    "goals": {
+      "R1": [
+        16,
+        10
+      ],
+      "R2": [
+        8,
+        2
+      ]
+    }
   }
 }
