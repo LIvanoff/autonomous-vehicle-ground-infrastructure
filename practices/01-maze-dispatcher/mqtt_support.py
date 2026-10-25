@@ -8,6 +8,7 @@ from queue import Queue
 import socket
 import subprocess
 import sys
+import tempfile
 import threading
 import time
 
@@ -32,26 +33,41 @@ def local_broker():
         probe.bind(("127.0.0.1", 0))
         port = probe.getsockname()[1]
     flags = subprocess.CREATE_NO_WINDOW if sys.platform == "win32" else 0
-    process = subprocess.Popen([sys.executable, str(Path(__file__).resolve()), str(port)], creationflags=flags)
-    try:
-        for _ in range(100):
-            if process.poll() is not None:
-                raise RuntimeError("MQTT-брокер не запустился")
-            try:
-                with socket.create_connection(("127.0.0.1", port), .1):
-                    break
-            except OSError:
-                time.sleep(.05)
-        else:
-            raise TimeoutError("Запуск MQTT-брокера занял более 5 секунд")
-        yield port
-    finally:
-        process.terminate()
+    # На Windows скрытый процесс не всегда может вывести traceback в терминал.
+    # Файл сохраняет причину сбоя и не блокирует брокер при большом объёме вывода.
+    with tempfile.TemporaryFile() as log:
+        process = subprocess.Popen(
+            [sys.executable, "-X", "utf8", str(Path(__file__).resolve()), str(port)],
+            creationflags=flags, stdout=log, stderr=subprocess.STDOUT,
+        )
         try:
-            process.wait(5)
-        except subprocess.TimeoutExpired:
-            process.kill()
-            process.wait(5)
+            for _ in range(100):
+                if process.poll() is not None:
+                    log.seek(0)
+                    details = log.read().decode("utf-8", errors="replace").strip()
+                    raise RuntimeError(
+                        f"MQTT-брокер не запустился (Python {sys.version.split()[0]}, "
+                        f"код выхода {process.returncode}).\n"
+                        f"{details or 'Дочерний процесс не оставил сообщения об ошибке.'}"
+                    )
+                try:
+                    with socket.create_connection(("127.0.0.1", port), .1):
+                        break
+                except OSError:
+                    time.sleep(.05)
+            else:
+                log.seek(0)
+                details = log.read().decode("utf-8", errors="replace").strip()
+                raise TimeoutError(f"Запуск MQTT-брокера занял более 5 секунд.\n{details}")
+            yield port
+        finally:
+            if process.poll() is None:
+                process.terminate()
+            try:
+                process.wait(5)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait(5)
 
 
 class Endpoint:
