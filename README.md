@@ -7,14 +7,15 @@
 | № | Практика | Основные темы |
 | --- | --- | --- |
 | 01 | [Два робота в лабиринте](practices/01-maze-dispatcher/) | Диспетчеризация, MQTT, подтверждение команд, визуализация движения |
+| 02 | [PointPillars на лидарных данных](practices/02-pointpillars/) | Запуск 3D-детектора на CPU, nuScenes-mini, порог уверенности, Rerun |
 
 ## Как начать
 
 ```sh
 git clone https://github.com/LIvanoff/autonomous-vehicle-ground-infrastructure.git
-cd autonomous-vehicle-ground-infrastructure/practices/01-maze-dispatcher
+cd autonomous-vehicle-ground-infrastructure
 ```
 
-Далее следуйте [README практики № 1](practices/01-maze-dispatcher/README.md).
+Выберите практику в таблице выше, перейдите в её папку и следуйте её README. Например, для практики № 2: `cd practices/02-pointpillars`.
 
 Каждая практика располагается в отдельной папке `practices/NN-topic/` со своим заданием, исходниками и зависимостями. Новые работы будут добавляться в этот репозиторий.
