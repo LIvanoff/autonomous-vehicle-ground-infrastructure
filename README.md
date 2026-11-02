@@ -7,7 +7,7 @@
 | № | Практика | Основные темы |
 | --- | --- | --- |
 | 01 | [Два робота в лабиринте](practices/01-maze-dispatcher/) | Диспетчеризация, MQTT, подтверждение команд, визуализация движения |
-| 02 | [PointPillars на лидарных данных](practices/02-pointpillars/) | Запуск 3D-детектора на CPU, nuScenes-mini, порог уверенности, Rerun |
+| 02 | [PointPillars на лидарных данных](practices/02-pointpillars/) | Запуск 3D-детектора на CPU, nuScenes-mini, precision и recall, Rerun |
 
 ## Как начать
 
